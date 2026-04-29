@@ -12,7 +12,7 @@ console.log(a ** b) // 100000 (power)
 // 2. Assignment Operators/operstion
 let x = 10
 
-x += 5  // x = x + 5 → 15
+x += 8  // x = x + 5 → 15
 x -= 2  // 13
 x *= 2  // 26
 x /= 2  // 13

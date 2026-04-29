@@ -81,7 +81,7 @@ console.log(person.name)
 
 // 👉 A list of values (ordered collection)
 
-let arr = [10, 20, 30]
+let arr = [11, 20, 30]
 
 console.log(arr[0]) // 10
 
