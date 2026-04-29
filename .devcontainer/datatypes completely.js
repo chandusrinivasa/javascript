@@ -105,8 +105,28 @@ let sayHi = function() {
   console.log("Hi")
 }
 //==========================memory==================
+//avaScript uses memory to store data while a program is running.
+// There are two main types of memory used in JavaScript: stack memory and heap memory.
 
+// 1.Stack Memory
 
+// Stack memory is used to store primitive data types such as numbers, strings, booleans, null, and undefined.
+// In stack memory, values are stored directly, and each variable gets its own copy of the value.
+
+// When one variable is assigned to another, a copy of the value is created.
+// So, if we change one variable, it does not affect the other variable.
+
+// This is called pass by value.
+
+// 2. Heap Memory
+
+// Heap memory is used to store non-primitive data types such as objects, arrays, and functions.
+// In heap memory, the actual data is stored in a large memory space, and variables store only the reference (address) of that data.
+
+// When one variable is assigned to another, both variables point to the same memory location.
+// So, if we change one variable, it will also affect the other variable.
+
+// This is called pass by reference.
 
 
 
